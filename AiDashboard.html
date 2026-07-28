@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Student Productivity Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between px-8 py-6 border-b border-white/10 backdrop-blur-md sticky top-0 z-50 bg-black/70">
+    <h1 class="text-2xl md:text-3xl font-bold tracking-wide">
+      AI Student Dashboard
+    </h1>
+
+    <div class="hidden md:flex gap-8 text-gray-300">
+      <a href="#features" class="hover:text-white transition">Features</a>
+      <a href="#analytics" class="hover:text-white transition">Analytics</a>
+      <a href="#about" class="hover:text-white transition">About</a>
+    </div>
+
+    <button class="px-5 py-2 rounded-2xl bg-white text-black font-semibold hover:scale-105 transition-transform">
+      Get Started
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative px-8 md:px-20 py-24 md:py-32">
+    <div class="absolute top-20 left-10 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-10 right-10 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl"></div>
+
+    <div class="relative z-10 grid md:grid-cols-2 gap-14 items-center">
+      <div>
+        <p class="uppercase tracking-[0.3em] text-gray-400 mb-4 text-sm">
+          Frontend Engineering Project
+        </p>
+
+        <h1 class="text-5xl md:text-7xl font-black leading-tight mb-6">
+          AI Student
+          <span class="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
+            Productivity Dashboard
+          </span>
+        </h1>
+
+        <p class="text-lg text-gray-300 leading-relaxed max-w-xl mb-8">
+          A modern dashboard designed for students to manage study sessions,
+          track productivity, organize tasks, and improve focus using AI-powered tools.
+        </p>
+
+        <div class="flex flex-wrap gap-4">
+          <button class="px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-500 to-blue-500 font-semibold hover:scale-105 transition-transform shadow-2xl shadow-purple-500/30">
+            Launch Dashboard
+          </button>
+
+          <button class="px-8 py-4 rounded-2xl border border-white/20 hover:bg-white/10 transition">
+            View Features
+          </button>
+        </div>
+      </div>
+
+      <!-- Dashboard Card -->
+      <div class="bg-white/5 border border-white/10 backdrop-blur-xl rounded-3xl p-6 shadow-2xl">
+        <div class="flex items-center justify-between mb-6">
+          <h2 class="text-2xl font-bold">Today's Productivity</h2>
+          <span class="bg-green-500/20 text-green-400 px-4 py-1 rounded-full text-sm">
+            Active
+          </span>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4 mb-6">
+          <div class="bg-black/40 p-5 rounded-2xl border border-white/10">
+            <p class="text-gray-400 text-sm">Study Hours</p>
+            <h3 class="text-3xl font-bold mt-2">6.5h</h3>
+          </div>
+
+          <div class="bg-black/40 p-5 rounded-2xl border border-white/10">
+            <p class="text-gray-400 text-sm">Tasks Done</p>
+            <h3 class="text-3xl font-bold mt-2">12</h3>
+          </div>
+        </div>
+
+        <div class="bg-black/40 p-5 rounded-2xl border border-white/10 mb-5">
+          <div class="flex justify-between mb-2">
+            <span class="text-gray-400">Focus Progress</span>
+            <span>86%</span>
+          </div>
+
+          <div class="w-full bg-white/10 h-3 rounded-full overflow-hidden">
+            <div class="bg-gradient-to-r from-purple-400 to-blue-400 h-full w-[86%] rounded-full"></div>
+          </div>
+        </div>
+
+        <div class="grid gap-3">
+          <div class="bg-purple-500/10 border border-purple-500/20 p-4 rounded-2xl flex justify-between items-center">
+            <span>Complete JavaScript Revision</span>
+            <span>✅</span>
+          </div>
+
+          <div class="bg-blue-500/10 border border-blue-500/20 p-4 rounded-2xl flex justify-between items-center">
+            <span>Frontend Project UI</span>
+            <span>⏳</span>
+          </div>
+
+          <div class="bg-pink-500/10 border border-pink-500/20 p-4 rounded-2xl flex justify-between items-center">
+            <span>Prepare Viva Questions</span>
+            <span>📌</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section id="analytics" class="px-8 md:px-20 py-12">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:-translate-y-2 transition-transform">
+        <h2 class="text-4xl font-black mb-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">128+</h2>
+        <p class="text-gray-400">Tasks Completed</p>
+      </div>
+
+      <div class="bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:-translate-y-2 transition-transform">
+        <h2 class="text-4xl font-black mb-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">540+</h2>
+        <p class="text-gray-400">Study Hours</p>
+      </div>
+
+      <div class="bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:-translate-y-2 transition-transform">
+        <h2 class="text-4xl font-black mb-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">1.2K</h2>
+        <p class="text-gray-400">Active Students</p>
+      </div>
+
+      <div class="bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:-translate-y-2 transition-transform">
+        <h2 class="text-4xl font-black mb-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">96%</h2>
+        <p class="text-gray-400">Focus Rate</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="px-8 md:px-20 py-24">
+    <div class="text-center mb-16">
+      <p class="uppercase tracking-[0.3em] text-gray-400 text-sm mb-4">
+        Features
+      </p>
+
+      <h2 class="text-5xl font-black mb-5">Everything Students Need</h2>
+
+      <p class="text-gray-400 max-w-2xl mx-auto text-lg">
+        Designed with modern frontend technologies and interactive UI components.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all hover:-translate-y-2 shadow-xl">
+        <div class="text-5xl mb-6">📚</div>
+        <h3 class="text-2xl font-bold mb-4">Smart Study Planner</h3>
+        <p class="text-gray-400 leading-relaxed">Organize your daily schedule efficiently.</p>
+      </div>
+
+      <div class="bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all hover:-translate-y-2 shadow-xl">
+        <div class="text-5xl mb-6">⏳</div>
+        <h3 class="text-2xl font-bold mb-4">Pomodoro Timer</h3>
+        <p class="text-gray-400 leading-relaxed">Improve focus with timed study sessions.</p>
+      </div>
+
+      <div class="bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all hover:-translate-y-2 shadow-xl">
+        <div class="text-5xl mb-6">🤖</div>
+        <h3 class="text-2xl font-bold mb-4">AI Assistant</h3>
+        <p class="text-gray-400 leading-relaxed">Get productivity tips and study help instantly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="px-8 md:px-20 py-24">
+    <div class="bg-gradient-to-r from-purple-500/10 to-blue-500/10 border border-white/10 rounded-[40px] p-10 md:p-16">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="uppercase tracking-[0.3em] text-gray-400 text-sm mb-4">
+            Project Overview
+          </p>
+
+          <h2 class="text-5xl font-black mb-6 leading-tight">
+            A Frontend Project Built To Impress
+          </h2>
+
+          <p class="text-gray-300 text-lg leading-relaxed mb-6">
+            This project demonstrates responsive layouts, animations, modern UI design, and frontend engineering concepts.
+          </p>
+        </div>
+
+        <div class="bg-black/40 border border-white/10 rounded-3xl p-8 backdrop-blur-xl">
+          <h3 class="text-3xl font-bold mb-8">Tech Stack</h3>
+
+          <div class="grid grid-cols-2 gap-5">
+            <div class="bg-white/5 border border-white/10 rounded-2xl py-4 text-center font-medium">HTML</div>
+            <div class="bg-white/5 border border-white/10 rounded-2xl py-4 text-center font-medium">Tailwind CSS</div>
+            <div class="bg-white/5 border border-white/10 rounded-2xl py-4 text-center font-medium">JavaScript</div>
+            <div class="bg-white/5 border border-white/10 rounded-2xl py-4 text-center font-medium">Responsive UI</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 py-8 px-8 md:px-20 text-center text-gray-400">
+    <p>AI Student Productivity Dashboard • Frontend Engineering Project</p>
+  </footer>
+
+  <script>
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'  
+        });
+      });
+    });
+
+    // Navbar button
+    document.querySelector('nav button').addEventListener('click', () => {
+      alert('Welcome to the AI Student Productivity Dashboard 🚀');
+      document.querySelector('#features').scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+
+    // Hero buttons
+    document.querySelectorAll('button')[1].addEventListener('click', () => {
+      alert('Launching Dashboard...');
+      document.querySelector('#analytics').scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+
+    document.querySelectorAll('button')[2].addEventListener('click', () => {
+      document.querySelector('#features').scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+
+    // Feature cards clickable
+    const cards = document.querySelectorAll('#features .shadow-xl');
+
+    cards.forEach(card => {
+      card.style.cursor = 'pointer';
+
+      card.addEventListener('click', () => {
+        const title = card.querySelector('h3').innerText;
+        alert(title + ' clicked!');
+      });
+    });
+  </script>
+</body>
+</html>
